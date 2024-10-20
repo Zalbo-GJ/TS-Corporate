@@ -1,4 +1,3 @@
-import MySvg from "../../public/images/Homepage-design.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,6 +6,7 @@ interface ServiceCardProps {
   title: string;
   description: string;
   link: string;
+  vector: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -14,6 +14,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
   description,
   link,
+  vector,
 }) => {
   return (
     <div
@@ -22,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       } ${leftRadius ? "flex-row" : "flex-row-reverse"}`}
     >
       <div className="flex justify-center items-center">
-        <Image src={MySvg} alt="Icon" />
+        <Image src={vector} alt="Icon" className="w-[70rem]" />
       </div>
       <div className="px-24  ">
         <h1 className="text-3xl text-blue-600 font-bold ">{title}</h1>
