@@ -11,7 +11,7 @@ export default function LandingPage() {
         <h1 className="text-4xl font-bold text-center text-blue-600 md:text-6xl md:text-left">
           Innovating with Tradition, Committed to Excellence
         </h1>
-        <p className="my-8 text-sm text-center text-black md:my-24 md:text-left">
+        <p className="my-8 text-sm text-center text-black md:my-24 md:text-left lg:text-base">
           Our vision is to be a trusted leader in development, delivering
           high-quality products and services. We aim to be a reliable partner,
           valuable asset, and driving force in our industry. Guided by Gadaa

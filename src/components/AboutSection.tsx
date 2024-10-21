@@ -8,7 +8,7 @@ export default function AboutSection() {
           About Company
         </div>
         <div className="flex flex-col space-y-6 mt-6 p-4 sm:mt-5  sm:space-y-10">
-          <p className="text-black text-xs text-center sm:text-left md:text-sm">
+          <p className="text-black text-xs text-center sm:text-left md:text-sm lg:text-base">
             Established in 2017, TSCORPORATE has evolved into a multifaceted
             corporation offering services across consulting, construction,
             manufacturing, agriculture, import-export, tourism, and travel.

@@ -19,7 +19,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     <div
       className={`flex flex-col items-center bg-blue-100 ${
         leftRadius ? "md:rounded-l-full" : "md:rounded-r-full"
-      }  rounded-md sm:flex-row md:p-4 py-12 sm:px-5 sm:items-center 
+      }  rounded-md sm:flex-row md:p-4 py-12 lg:py-20 sm:px-5 sm:items-center 
       
       ${leftRadius ? "sm:flex-row" : "sm:flex-row-reverse"}`}
     >
@@ -27,8 +27,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <Image src={vector} alt="Icon" className=" p-9 sm:w-[70rem]" />
       </div>
       <div className="md:px-24 px-6 sm:px-9">
-        <h1 className="text-xl text-blue-600 font-bold sm:text-xl">{title}</h1>
-        <p className="text-black py-4 sm:py-6 text-xs md:text-sm overflow-hidden ">
+        <h1 className="text-xl text-blue-600 font-bold sm:text-xl lg:text-2xl">
+          {title}
+        </h1>
+        <p className="text-black py-4 sm:py-6 text-xs md:text-sm lg:text-base overflow-hidden ">
           {description}
         </p>
         <Link href={link}>
