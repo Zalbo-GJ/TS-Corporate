@@ -3,16 +3,22 @@ import Prof from "../../../public/images/prof.png";
 
 export default function About() {
   return (
-    <div className="text-black bg-white p-24">
-      <h1 className="text-4xl font-bold text-center mb-8">TSCORPORATE</h1>
-      <div className="flex flex-col items-center mb-8">
-        <Image src={Prof} alt="Professor" className=" mb-4" />
-        <p className="text-lg font-semibold">
+    <div className="text-black bg-white p-6 md:p-24">
+      <h1 className="text-2xl md:text-4xl font-bold text-center mb-4 md:mb-8">
+        TSCORPORATE
+      </h1>
+      <div className="flex flex-col items-center mb-4 md:mb-8">
+        <Image
+          src={Prof}
+          alt="Professor"
+          className="mb-2 w-48 md:w-96 md:mb-4"
+        />
+        <p className="text-base md:text-lg font-semibold">
           Prof. Teshome Soromessa (Corporate President)
         </p>
       </div>
 
-      <p className="mb-6 text-justify">
+      <p className="mb-4 md:mb-6 text-justify">
         With immense pride and excitement, I introduce you to TSCORPORATE, a
         company on a remarkable trajectory of growth and development with its
         multiple sister companies. Since our humble beginnings in 2017,
@@ -22,7 +28,7 @@ export default function About() {
         technologies while prioritizing the unique needs of our esteemed clients
         has been central to our success.
       </p>
-      <p className="mb-6 text-justify">
+      <p className="mb-4 md:mb-6 text-justify">
         Progress has never been a mere dream; it has always been a tangible
         reality. Achieving one milestone invariably sets the stage for the next.
         Like many entrepreneurs committed to their visions, my goal has always
@@ -31,7 +37,7 @@ export default function About() {
         significant impact through quality and competitively priced products and
         services.
       </p>
-      <p className="mb-6 text-justify">
+      <p className="mb-4 md:mb-6 text-justify">
         Undoubtedly, we possess the people and resources necessary to lead this
         company into a bright future. Our journey thus far has been powered by
         the hard work, dedication, and determination of our exceptional team. It
@@ -40,7 +46,7 @@ export default function About() {
         strength to strength, delivering value and satisfaction to our
         ever-expanding list of valued clients.
       </p>
-      <p className="mb-6 text-justify">
+      <p className="mb-4 md:mb-6 text-justify">
         Our most valuable assets are our small but highly trained team of
         professional environmentalists, managers, and engineers, supported by an
         exceptionally capable administrative team. We have a clear vision of
@@ -49,15 +55,17 @@ export default function About() {
         the unwavering support of our team and clients, I am confident that we
         will continue to reach new heights of excellence for years to come.
       </p>
-      <h2 className="text-2xl font-semibold mt-8 mb-4">About</h2>
-      <p className="mb-6 text-justify">
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        About
+      </h2>
+      <p className="mb-4 md:mb-6 text-justify">
         Established in 2017, TSCORPORATE has evolved into a multifaceted
         corporation offering services across consulting, construction,
         manufacturing, agriculture, import-export, tourism, and travel. Founded
         by renowned scientist and researcher Prof. Teshome Soromessa, the
         company is dedicated to quality development endeavors.
       </p>
-      <p className="mb-6 text-justify">
+      <p className="mb-4 md:mb-6 text-justify">
         From its inception, TSCORPORATE has prioritized delivering high-quality
         products and services, backed by cutting-edge techniques and modern
         technology. Our commitment to excellence has earned us recognition as a
@@ -65,14 +73,18 @@ export default function About() {
         strive to be a responsible business that maximizes our impact and
         contributes to the greater good.
       </p>
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Vision</h2>
-      <p className="mb-6 text-justify">
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        Vision
+      </h2>
+      <p className="mb-4 md:mb-6 text-justify">
         Our vision is to grow into a dependable company to be one of the leaders
         in development endeavors, which our clients recognize as a supplier of
         high-quality products, supported by high-quality services.
       </p>
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Mission</h2>
-      <ul className="list-disc list-inside mb-6">
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        Mission
+      </h2>
+      <ul className="list-disc list-inside mb-4 md:mb-6">
         <li>a dependable partner to all our customers.</li>
         <li>a valuable asset to our stakeholders.</li>
         <li>
@@ -80,8 +92,10 @@ export default function About() {
           intended endeavors.
         </li>
       </ul>
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Core Values</h2>
-      <ol className="list-decimal list-inside mb-6">
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        Core Values
+      </h2>
+      <ol className="list-decimal list-inside mb-4 md:mb-6">
         <li>Work to protect nature.</li>
         <li>Embrace tradition, innovation, and brand reputation.</li>
         <li>Follow Gadaa principles in our operation and decision-making.</li>
@@ -90,8 +104,10 @@ export default function About() {
         <li>Give care to our community.</li>
         <li>Achieve sustainable growth and profitability.</li>
       </ol>
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Sectors</h2>
-      <p className="mb-6 text-justify">
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        Sectors
+      </h2>
+      <p className="mb-4 md:mb-6 text-justify">
         TSCORPORATE has multiple sectors offering a wide range of services
         across consulting, construction, manufacturing, agriculture,
         import-export, tourism, and travel. So, TSCORPORATE has diversified its
@@ -99,7 +115,7 @@ export default function About() {
         six sister companies, each focused on a specific area of expertise.
         These sister companies are:
       </p>
-      <ul className="list-disc list-inside mb-6">
+      <ul className="list-disc list-inside mb-4 md:mb-6">
         <li>
           TS Consulting Firm (Teshome Soromessa Consulting Firm or TSCF):
           Provides consulting services to clients across various industries.

@@ -17,7 +17,7 @@ import Image14 from "../../../public/images/organogram.png";
 
 export default function TSFarm() {
   return (
-    <div className="min-h-screen p-24 bg-white">
+    <div className="min-h-screen p-9 md:p-24  bg-white">
       <div className="flex items-center space-x-4 mb-12">
         <Image src={TSFarmLogo} alt="TS Farm Logo" width={120} />
         <h1 className="text-4xl font-extrabold text-black">TS Farm</h1>
@@ -33,7 +33,7 @@ export default function TSFarm() {
           and innovative processing techniques ensures that we deliver fresh,
           nutritious, and premium products to our customers.
         </p>
-        <h1 className="text-5xl font-bold mb-6 w-[50rem] text-black flex space-y-10">
+        <h1 className="text-5xl font-bold mb-6 lg:w-[50rem] text-black flex space-y-10">
           THE EXCELLENCE OF A COMPETITIVE AND SUSTAINABLE BUSINESS MODEL
         </h1>
       </section>
@@ -218,7 +218,7 @@ export default function TSFarm() {
         </h2>
         <Image src={Image1} alt="TS Farm Logo" />
 
-        <p className="text-5xl font-bold mb-6 mt-6 w-[50rem] text-black flex space-y-10">
+        <p className="text-5xl font-bold mb-6 mt-6 lg:w-[50rem] text-black flex space-y-10">
           RESPECTING and Improving the environment AND
         </p>
         <h3 className="text-2xl font-bold mb-6 text-black">
@@ -242,7 +242,7 @@ export default function TSFarm() {
             workshops.
           </li>
         </ul>
-        <div className="grid grid-cols-2 gap-4 p-9 w-[80rem]">
+        <div className="lg:grid lg:grid-cols-2 gap-4 p-9  ">
           <Image src={Image2} alt="TS Farm Logo" width={800} height={350} />
           <Image src={Image3} alt="TS Farm Logo" width={800} height={350} />
           <Image src={Image4} alt="TS Farm Logo" width={800} height={350} />
@@ -332,7 +332,7 @@ export default function TSFarm() {
             Packaging: Eco-friendly packaging solutions to reduce environmental
             impact.
           </li>
-          <div className="flex p-24 items-center  ">
+          <div className="md:flex p-24 items-center  ">
             <Image src={Image12} alt="TS Farm Logo" width={350} />
             <Image
               src={Image13}

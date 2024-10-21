@@ -30,7 +30,7 @@ import Image27 from "../../../public/images/organogram2.png";
 
 export default function TSIEPage() {
   return (
-    <div className="min-h-screen p-24 bg-white text-black">
+    <div className="min-h-screen p-9 md:p-24  bg-white text-black">
       <div className="flex items-center space-x-4 mb-12">
         <Image src={TSIELogo} alt="TS Farm Logo" width={120} />
         <h1 className="text-4xl font-extrabold text-black">TS Import/Export</h1>
@@ -324,7 +324,7 @@ export default function TSIEPage() {
             </li>
           </ul>
           <figure className="mb-2 flex flex-col items-center">
-            <div className="grid justify-center grid-cols-2 gap-4 p-9 w-[80rem]">
+            <div className=" md:grid  justify-center md:grid-cols-2 gap-4 p-9 lg:w-[60rem] overflow-hidden">
               {" "}
               <Image
                 src={Image4}
@@ -335,7 +335,7 @@ export default function TSIEPage() {
               <Image
                 src={Image6}
                 alt="TS Farm Logo"
-                className="h-96 w-[90rem]"
+                className="h-96 w-[40rem]"
                 style={{ objectFit: "cover" }}
               />
             </div>
@@ -393,7 +393,7 @@ export default function TSIEPage() {
               <Image
                 src={Image7}
                 alt="TS Farm Logo"
-                className="h-80 w-[40rem]"
+                className=" w-[40rem]"
                 style={{ objectFit: "cover" }}
               />
 
@@ -405,7 +405,7 @@ export default function TSIEPage() {
               <Image
                 src={Image8}
                 alt="TS Farm Logo"
-                className="h-80 w-[40rem]"
+                className=" w-[40rem]"
                 style={{ objectFit: "cover" }}
               />
 
@@ -417,7 +417,7 @@ export default function TSIEPage() {
               <Image
                 src={Image9}
                 alt="TS Farm Logo"
-                className="h-80 w-[40rem]"
+                className=" w-[40rem]"
                 style={{ objectFit: "cover" }}
               />
 
@@ -462,7 +462,7 @@ export default function TSIEPage() {
           highly sought after in the international market, providing coffee
           enthusiasts with an unparalleled experience.
         </p>
-        <div className="flex space-x-4 p-9">
+        <div className="lg:flex space-x-4 space-y-4 p-9">
           <Image
             src={Image10}
             alt="TS Farm Logo"
@@ -522,19 +522,19 @@ export default function TSIEPage() {
           <Image
             src={Image12}
             alt="TS Farm Logo"
-            className="h-[30rem] w-[60rem]"
+            className=" w-[60rem]"
             style={{ objectFit: "cover" }}
           />{" "}
           <Image
             src={Image13}
             alt="TS Farm Logo"
-            className="h-[30rem] w-[60rem]"
+            className=" w-[60rem]"
             style={{ objectFit: "cover" }}
           />{" "}
           <Image
             src={Image14}
             alt="TS Farm Logo"
-            className="h-[30rem] w-[60rem]"
+            className=" w-[60rem]"
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -551,7 +551,7 @@ export default function TSIEPage() {
             <Image
               src={Image15}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -563,7 +563,7 @@ export default function TSIEPage() {
             <Image
               src={Image16}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -575,7 +575,7 @@ export default function TSIEPage() {
             <Image
               src={Image17}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -587,7 +587,7 @@ export default function TSIEPage() {
             <Image
               src={Image18}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -634,7 +634,7 @@ export default function TSIEPage() {
             <Image
               src={Image19}
               alt="TS Farm Logo"
-              className="h-[27rem] w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -646,7 +646,7 @@ export default function TSIEPage() {
             <Image
               src={Image20}
               alt="TS Farm Logo"
-              className="h-[27rem] w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -658,7 +658,7 @@ export default function TSIEPage() {
             <Image
               src={Image21}
               alt="TS Farm Logo"
-              className="h-[27rem] w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
@@ -717,11 +717,11 @@ export default function TSIEPage() {
             <Image
               src={Image22}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center md:text-lg font-semibold mt-2">
               Chickpeas{" "}
             </figcaption>
           </figure>
@@ -729,11 +729,11 @@ export default function TSIEPage() {
             <Image
               src={Image23}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center md:text-lg font-semibold mt-2">
               Peanuts{" "}
             </figcaption>
           </figure>
@@ -741,11 +741,11 @@ export default function TSIEPage() {
             <Image
               src={Image24}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center md:text-lg font-semibold mt-2">
               Horse Bean{" "}
             </figcaption>
           </figure>
@@ -753,11 +753,11 @@ export default function TSIEPage() {
             <Image
               src={Image25}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center md:text-lg font-semibold mt-2">
               Kidney Bean{" "}
             </figcaption>
           </figure>{" "}
@@ -765,11 +765,11 @@ export default function TSIEPage() {
             <Image
               src={Image26}
               alt="TS Farm Logo"
-              className="h-64 w-[40rem]"
+              className=" w-[40rem]"
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center md:text-lg font-semibold mt-2">
               Lentils{" "}
             </figcaption>
           </figure>

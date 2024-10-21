@@ -11,7 +11,7 @@ import Image7 from "../../../public/images/organogram3.png";
 
 export default function TSCF() {
   return (
-    <div className="min-h-screen p-24 bg-white text-black">
+    <div className="min-h-screen p-9 md:p-24  bg-white text-black">
       <div className="flex items-center space-x-4 mb-12">
         <Image src={TSCFLogo} alt="TS Farm Logo" width={120} />
         <h1 className="text-4xl font-extrabold text-black">

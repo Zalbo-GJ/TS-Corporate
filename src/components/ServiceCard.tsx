@@ -8,7 +8,6 @@ interface ServiceCardProps {
   link: string;
   vector: string;
 }
-
 const ServiceCard: React.FC<ServiceCardProps> = ({
   leftRadius,
   title,
@@ -18,16 +17,20 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   return (
     <div
-      className={`h-96 bg-blue-100 flex px-16 mb-12 items-center ${
-        leftRadius ? "rounded-l-full" : "rounded-r-full"
-      } ${leftRadius ? "flex-row" : "flex-row-reverse"}`}
+      className={`flex flex-col items-center bg-blue-100 ${
+        leftRadius ? "md:rounded-l-full" : "md:rounded-r-full"
+      }  rounded-md sm:flex-row md:p-4 py-12 sm:px-5 sm:items-center 
+      
+      ${leftRadius ? "sm:flex-row" : "sm:flex-row-reverse"}`}
     >
-      <div className="flex justify-center items-center">
-        <Image src={vector} alt="Icon" className="w-[70rem]" />
+      <div className="lg:flex justify-center items-center hidden ">
+        <Image src={vector} alt="Icon" className=" p-9 sm:w-[70rem]" />
       </div>
-      <div className="px-24  ">
-        <h1 className="text-3xl text-blue-600 font-bold ">{title}</h1>
-        <p className="text-black py-6">{description}</p>
+      <div className="md:px-24 px-6 sm:px-9">
+        <h1 className="text-xl text-blue-600 font-bold sm:text-xl">{title}</h1>
+        <p className="text-black py-4 sm:py-6 text-xs md:text-sm overflow-hidden ">
+          {description}
+        </p>
         <Link href={link}>
           <button className="bg-transparent border border-blue-600 rounded-full px-4 py-2 text-blue-600">
             Learn More

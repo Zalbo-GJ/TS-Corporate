@@ -5,9 +5,9 @@ import Farming from "../../public/images/farming.svg";
 
 export default function ServicesSection() {
   return (
-    <div className="h-[1500px] flex flex-col items-center" id="services">
-      <h1 className="text-3xl text-blue-600 font-bold ">Our Sectors</h1>
-      <div className="flex flex-col py-24">
+    <div className="flex flex-col items-center px-4 py-8" id="services">
+      <h1 className="text-2xl text-blue-600 font-bold mb-8">Our Sectors</h1>
+      <div className="flex flex-col sm:space-y-8">
         <ServiceCard
           leftRadius={false}
           link="tscf"
