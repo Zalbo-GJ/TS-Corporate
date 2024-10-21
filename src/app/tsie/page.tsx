@@ -1,10 +1,8 @@
 import Image from "next/image";
 import TSIELogo from "../../../public/images/tsieLogo.png";
 import Image1 from "../../../public/images/construction1.png";
-import Image2 from "../../../public/images/construction2.png";
-import Image3 from "../../../public/images/construction3.png";
+
 import Image4 from "../../../public/images/auto1.png";
-import Image5 from "../../../public/images/auto2.png";
 import Image6 from "../../../public/images/auto3.png";
 import Image7 from "../../../public/images/machine1.png";
 import Image8 from "../../../public/images/machine2.png";
