@@ -332,7 +332,7 @@ export default function TSFarm() {
             Packaging: Eco-friendly packaging solutions to reduce environmental
             impact.
           </li>
-          <div className="md:flex p-24 items-center  ">
+          <div className="md:flex p-5 md:p-24 items-center  ">
             <Image src={Image12} alt="TS Farm Logo" width={350} />
             <Image
               src={Image13}

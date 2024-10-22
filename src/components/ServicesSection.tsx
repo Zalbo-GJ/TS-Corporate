@@ -7,7 +7,7 @@ export default function ServicesSection() {
   return (
     <div className="flex flex-col items-center px-4 py-8" id="services">
       <h1 className="text-2xl text-blue-600 font-bold mb-8">Our Sectors</h1>
-      <div className="flex flex-col sm:space-y-8">
+      <div className="flex flex-col space-y-9 ">
         <ServiceCard
           leftRadius={false}
           link="tscf"

@@ -395,7 +395,7 @@ export default function TSIEPage() {
                 style={{ objectFit: "cover" }}
               />
 
-              <figcaption className="text-center text-lg font-semibold mt-2">
+              <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
                 Concrete Mixer
               </figcaption>
             </figure>
@@ -407,7 +407,7 @@ export default function TSIEPage() {
                 style={{ objectFit: "cover" }}
               />
 
-              <figcaption className="text-center text-lg font-semibold mt-2">
+              <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
                 Dump Truck
               </figcaption>
             </figure>
@@ -419,7 +419,7 @@ export default function TSIEPage() {
                 style={{ objectFit: "cover" }}
               />
 
-              <figcaption className="text-center text-lg font-semibold mt-2">
+              <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
                 Formwork Panels
               </figcaption>
             </figure>
@@ -553,7 +553,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Avocado{" "}
             </figcaption>
           </figure>
@@ -565,7 +565,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Apple{" "}
             </figcaption>
           </figure>
@@ -577,7 +577,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Garlic{" "}
             </figcaption>
           </figure>
@@ -589,7 +589,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Carrot{" "}
             </figcaption>
           </figure>
@@ -636,7 +636,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Niger Seed{" "}
             </figcaption>
           </figure>
@@ -648,7 +648,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Sesame Seed{" "}
             </figcaption>
           </figure>
@@ -660,7 +660,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Sunflower Seed{" "}
             </figcaption>
           </figure>
@@ -719,7 +719,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Chickpeas{" "}
             </figcaption>
           </figure>
@@ -731,7 +731,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Peanuts{" "}
             </figcaption>
           </figure>
@@ -743,7 +743,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Horse Bean{" "}
             </figcaption>
           </figure>
@@ -755,7 +755,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Kidney Bean{" "}
             </figcaption>
           </figure>{" "}
@@ -767,7 +767,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Lentils{" "}
             </figcaption>
           </figure>

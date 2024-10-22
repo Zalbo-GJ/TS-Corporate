@@ -4,10 +4,10 @@ import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
   return (
-    <div className="bg-white px-24">
+    <div className="bg-white md:px-24 px-4">
       <LandingPage />
       <AboutSection />
-      <ServicesSection/>
+      <ServicesSection />
     </div>
   );
 }
