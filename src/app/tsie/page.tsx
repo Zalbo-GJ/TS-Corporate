@@ -28,15 +28,15 @@ import Image27 from "../../../public/images/organogram2.png";
 
 export default function TSIEPage() {
   return (
-    <div className="min-h-screen p-9 md:p-24  bg-white text-black">
-      <div className="flex items-center space-x-4 mb-12">
+    <div className="min-h-screen p-5 md:p-24  bg-white text-black">
+      <div className="md:flex items-center space-x-4 mb-12">
         <Image src={TSIELogo} alt="TS Farm Logo" width={120} />
         <h1 className="text-4xl font-extrabold text-black">TS Import/Export</h1>
       </div>{" "}
       {/* Who We Are Section */}
       <section className="mb-8">
         <h1 className="text-3xl font-bold mb-4">Who We Are</h1>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           TSIE is a well-established business, legally incorporated in 2017,
           with a core focus on high-quality modern trading activities. Over the
           years, TSIE has built a reputation as one of the most reliable
@@ -44,7 +44,7 @@ export default function TSIEPage() {
           organizations in the export and import of various commodities on a
           large scale.
         </p>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           The company is known for its expert business operations and the
           ability to foster strong business associations with large
           multinational traders and industrial organizations. TSIE aims to
@@ -52,7 +52,7 @@ export default function TSIEPage() {
           interests across the Middle East, Europe, China, Latin America, Asia,
           and African countries.
         </p>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           Since its inception, TSIE has strategically participated in several
           trading operations, including:
         </p>
@@ -72,13 +72,13 @@ export default function TSIEPage() {
             various business transactions.
           </li>
         </ul>
-        <p className="text-lg">
+        <p className="text-sm md:text-lg">
           TSIE's success is attributed to its commitment to unfailing
           regularity, strict adherence to quality, conformity to contractual
           terms, and timely shipments. These practices have resulted in high
           client satisfaction across many countries worldwide.
         </p>
-        <p className="text-lg">
+        <p className="text-sm md:text-lg">
           The company's business culture is characterized by strong and cordial
           relations with several agencies and large private sector
           organizations, both nationally and internationally. TSIE is dedicated
@@ -90,7 +90,7 @@ export default function TSIEPage() {
       {/* Vision Section */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Vision</h2>
-        <p className="text-lg">
+        <p className="text-sm md:text-lg">
           To become a globally recognized company that prioritizes quality,
           service, and value, ensuring the utmost satisfaction of our customers,
           employees, and stakeholders.
@@ -156,7 +156,7 @@ export default function TSIEPage() {
         <h3 className="text-xl font-semibold mb-2">
           Strategic Business Policy: Quality Control for Export Operations
         </h3>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           TSIE is committed to maintaining the highest quality standards for all
           exportable commodities. The company has established stringent quality
           control policies that are rigorously applied during export operations.
@@ -208,7 +208,7 @@ export default function TSIEPage() {
         <h2 className="text-2xl font-semibold mb-2">Major Products/Services</h2>
         {/* Importable Business */}
         <h3 className="text-xl font-semibold mb-2">1.Importable Business</h3>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           At TSIE’s Importable Business, we take great pride in being highly
           regarded by our customers for our prompt and precise delivery
           services, as well as our commitment to excellent customer support. We
@@ -222,10 +222,10 @@ export default function TSIEPage() {
         </p>
         {/* Construction Input Materials */}
         <div className="pl-5">
-          <h4 className="text-lg font-semibold mb-2">
+          <h4 className="text-sm md:text-lg font-semibold mb-2">
             1.1 Construction Input Materials
           </h4>
-          <p className="text-lg mb-2">
+          <p className="text-sm md:text-lg mb-2">
             Our extensive experience in the construction materials supply
             industry, combined with strong relationships with industrial experts
             and a network of skilled local business partners, enables us to
@@ -260,15 +260,17 @@ export default function TSIEPage() {
                 style={{ objectFit: "cover" }}
               /> */}
             {/* </div> */}
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Rebars
             </figcaption>
           </figure>
         </div>
         {/* Auto Spare Parts */}
         <div className="pl-5">
-          <h4 className="text-lg font-semibold mb-2">1.2 Auto Spare Parts</h4>
-          <p className="text-lg mb-2">
+          <h4 className="text-sm md:text-lg font-semibold mb-2">
+            1.2 Auto Spare Parts
+          </h4>
+          <p className="text-sm md:text-lg mb-2">
             At TSIE, we specialize in importing genuine automotive parts and
             accessories. Our commitment to quality ensures that our clients can
             trust the products they purchase from us. Here’s what you can expect
@@ -306,7 +308,7 @@ export default function TSIEPage() {
               throughout your purchasing experience.
             </li>
           </ul>
-          <h5 className="text-lg font-semibold mb-2">
+          <h5 className="text-sm md:text-lg font-semibold mb-2">
             Our Product Range Includes:
           </h5>
           <ul className="list-disc pl-5 mb-2">
@@ -337,17 +339,17 @@ export default function TSIEPage() {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <figcaption className="text-center text-lg font-semibold mt-2">
+            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
               Spare parts
             </figcaption>
           </figure>
         </div>
         {/* Construction Contracting and Machinery Rental */}
         <div className="pl-5">
-          <h4 className="text-lg font-semibold mb-2">
+          <h4 className="text-sm md:text-lg font-semibold mb-2">
             1.3 Construction Contracting and Machinery Rental
           </h4>
-          <p className="text-lg mb-2">
+          <p className="text-sm md:text-lg mb-2">
             TSIE operates as a comprehensive professional construction service
             provider, leveraging our extensive skills and market expertise to
             create a distinctive value proposition for our clients. Established
@@ -371,7 +373,7 @@ export default function TSIEPage() {
               value-added services to optimize project outcomes.
             </li>
           </ul>
-          <p className="text-lg mb-2">
+          <p className="text-sm md:text-lg mb-2">
             In addition to our construction capabilities, TSIE also offers a
             comprehensive Machinery Rental Service. We provide a wide variety of
             essential construction machinery, including but not limited to Dump
@@ -426,7 +428,7 @@ export default function TSIEPage() {
           </div>
         </div>
         <h3 className="text-xl font-semibold mb-2">2.Exportable Business</h3>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           Over the past few years, TSIE has built strong relationships with
           international market mediators and buyers for all major commodities of
           Ethiopian origin. This strategic growth enables TSIE to serve as a
@@ -435,8 +437,8 @@ export default function TSIEPage() {
           us to facilitate seamless trade operations and ensure timely delivery
           to global markets.
         </p>
-        <h4 className="text-lg font-semibold mb-2">a. Coffee</h4>
-        <p className="text-lg mb-2">
+        <h4 className="text-sm md:text-lg font-semibold mb-2">a. Coffee</h4>
+        <p className="text-sm md:text-lg mb-2">
           Ethiopia is renowned for its unique coffee varieties, such as Arabica,
           with rich flavors and aromatic profiles that attract coffee lovers
           worldwide. At TSIE, we are passionately engaged in the coffee export
@@ -453,7 +455,7 @@ export default function TSIEPage() {
             Unwashed Coffee Varieties: Guji, Sidama, Jimma, Nekemte, Harar, etc.
           </li>
         </ul>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           Other Distinct Ethiopian Coffee Beans: Our Ethiopian coffee beans are
           renowned for their distinctive profiles, featuring remarkable acidity,
           aroma, flavor, and a well-balanced taste. These qualities make them
@@ -474,8 +476,8 @@ export default function TSIEPage() {
             style={{ objectFit: "cover" }}
           />
         </div>
-        <h4 className="text-lg font-semibold mb-2">b. Spices</h4>
-        <p className="text-lg mb-2">
+        <h4 className="text-sm md:text-lg font-semibold mb-2">b. Spices</h4>
+        <p className="text-sm md:text-lg mb-2">
           Ethiopian spices like cardamom, turmeric, ginger, berbere, and
           mitmita, known for their bold flavors, are gaining popularity in
           international culinary markets. Below is a summary and a bit more
@@ -512,7 +514,7 @@ export default function TSIEPage() {
             freshness and quality.
           </li>
         </ul>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           These spices not only enhance the flavor profiles of various dishes
           but also represent the rich culinary heritage of Ethiopia.
         </p>
@@ -537,10 +539,10 @@ export default function TSIEPage() {
           />
         </div>
 
-        <h4 className="text-lg font-semibold mb-2">
+        <h4 className="text-sm md:text-lg font-semibold mb-2">
           c. Horticultural Products
         </h4>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           Fresh produce, including fruits and vegetables, showcases Ethiopia's
           biodiversity and is a vital part of our agricultural offerings.
         </p>
@@ -595,8 +597,8 @@ export default function TSIEPage() {
           </figure>
         </div>
 
-        <h4 className="text-lg font-semibold mb-2">d. Oilseeds</h4>
-        <p className="text-lg mb-2">
+        <h4 className="text-sm md:text-lg font-semibold mb-2">d. Oilseeds</h4>
+        <p className="text-sm md:text-lg mb-2">
           The country produces various oilseeds, including sesame and niger
           seeds, which are essential for oil extraction and culinary uses
           globally. Ethiopia is recognized for exporting high-quality seeds like
@@ -665,8 +667,10 @@ export default function TSIEPage() {
             </figcaption>
           </figure>
         </div>
-        <h4 className="text-lg font-semibold mb-2">e. Pulse Crops</h4>
-        <p className="text-lg mb-2">
+        <h4 className="text-sm md:text-lg font-semibold mb-2">
+          e. Pulse Crops
+        </h4>
+        <p className="text-sm md:text-lg mb-2">
           Lentils and chickpeas from Ethiopia are recognized for their quality,
           contributing to a surge in export demand for health-focused diets.
           Ethiopian pulse crops, particularly chickpeas, peanuts, horse beans,
@@ -710,7 +714,7 @@ export default function TSIEPage() {
             traction in health-conscious diets.
           </li>
         </ul>
-        <div className="flex space-x-7">
+        <div className="flex items-end space-x-2 md:space-x-7">
           <figure className="mb-2 flex flex-col items-center">
             <Image
               src={Image22}
@@ -719,7 +723,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-xs md:text-lg font-semibold mt-2">
               Chickpeas{" "}
             </figcaption>
           </figure>
@@ -731,7 +735,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-xs md:text-lg font-semibold mt-2">
               Peanuts{" "}
             </figcaption>
           </figure>
@@ -743,7 +747,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-xs md:text-lg font-semibold mt-2">
               Horse Bean{" "}
             </figcaption>
           </figure>
@@ -755,7 +759,7 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-xs md:text-lg font-semibold mt-2">
               Kidney Bean{" "}
             </figcaption>
           </figure>{" "}
@@ -767,12 +771,12 @@ export default function TSIEPage() {
               style={{ objectFit: "cover" }}
             />
 
-            <figcaption className="text-center text-sm md:text-lg font-semibold mt-2">
+            <figcaption className="text-center text-xs md:text-lg font-semibold mt-2">
               Lentils{" "}
             </figcaption>
           </figure>
         </div>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           <strong>Commitment to Quality and Sustainability:</strong> TSIE is
           committed to promoting sustainable agricultural practices and the
           highest standards of quality in all our supply chain operations. By
@@ -789,7 +793,7 @@ export default function TSIEPage() {
       {/* Organogram Section */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Organogram of TSIE</h2>
-        <p className="text-lg mb-2">
+        <p className="text-sm md:text-lg mb-2">
           The organizational structure of TSIE creates a clear hierarchy and
           division of responsibilities, enabling TSIE to operate efficiently.
           The CEO sets the strategic direction, the General Manager oversees the

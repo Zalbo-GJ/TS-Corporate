@@ -12,13 +12,13 @@ import Image7 from "../../../public/images/organogram3.png";
 export default function TSCF() {
   return (
     <div className="min-h-screen p-9 md:p-24  bg-white text-black">
-      <div className="flex items-center space-x-4 mb-12">
+      <div className="md:flex items-center space-x-4 mb-12">
         <Image src={TSCFLogo} alt="TS Farm Logo" width={120} />
         <h1 className="text-4xl font-extrabold text-black">
           TS Consulting Firm
         </h1>
       </div>
-      <p className="mb-4">
+      <p className="mb-4 text-sm md:text-lg">
         TS Consulting Firm (Teshome Soromessa Consulting Firm) emanated from the
         wealth of experience of Colorado General Business PLC, owned by the same
         general manager, Prof. Teshome Soromessa, who managed Colorado General
@@ -39,7 +39,7 @@ export default function TSCF() {
         high-quality services that contribute to informed decision-making, in
         support of sustainable development.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 text-sm md:text-lg">
         The company boasts of its highly skilled personnel and associates with
         many years of experience in their respective fields. Clients, therefore,
         have the advantage of securing fully fledged services that are
@@ -60,7 +60,7 @@ export default function TSCF() {
         suit a diverse set of clients working on national and international
         development priorities.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 text-sm md:text-lg">
         The scope of work involves planning and managing a project focused on
         environmental sustainability. The project includes developing
         educational materials, conducting socio-economic and environmental
@@ -82,12 +82,12 @@ export default function TSCF() {
         a) Environmental Impact Assessment, Environmental Management and Audit
         Programs
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company is highly proficient in environmental scoping, assessment,
         and reporting. Particularly we offer the following services to our
         clients:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           Environmental Impact Assessment (EIA). Under one or separate contracts
           we can do the following:
@@ -112,11 +112,11 @@ export default function TSCF() {
           project and the potential impacts associated with the operation.
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Environmental Audit, Monitoring, Green House Gases Inventory and CDM
         Projects
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Environmental audits are systematic and objective assessments of the
         environmental status and performance of properties, facilities,
         processes, and/or operations. They are a valuable management tool that
@@ -128,7 +128,7 @@ export default function TSCF() {
         initiatives to improve the environmental performance of a facility. Our
         company has the necessary available skills to:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           a) Assess industry-related activities, including, but not limited to,
           industries involved in construction, general manufacturing, bottling,
@@ -157,8 +157,8 @@ export default function TSCF() {
           petroleum, mining, and manufacturing.
         </li>
       </ul>
-      <p className="mb-4">Green House Gas Inventory</p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">Green House Gas Inventory</p>
+      <p className="mb-4 md:text-lg text-sm">
         We at TSCF use the most comprehensive protocol, policy-neutral
         accounting tool for quantifying the greenhouse gas benefits of climate
         change mitigation projects. The protocol is the culmination of a unique
@@ -182,7 +182,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         b) Acoustics, Noise and Vibration
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         At TSCF Acoustics, we believe that acoustics, by its very nature, is
         intrinsic to all aspects of life and the built environment. Our
         philosophy is founded on the principle that acoustic effects can be
@@ -192,7 +192,7 @@ export default function TSCF() {
         construction industry and beyond.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Our Services</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Planning, Design, and Implementation</strong>
           <ul className="list-disc pl-5">
@@ -210,7 +210,7 @@ export default function TSCF() {
         </li>
       </ul>
       <h5 className="text-md font-semibold mt-2 mb-1">Areas of Expertise</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Environmental and Architectural Acoustics</strong>
           <ul className="list-disc pl-5">
@@ -248,7 +248,7 @@ export default function TSCF() {
         </li>
       </ul>
       <h5 className="text-md font-semibold mt-2 mb-1">Why Choose Us?</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Scientific Approach:</strong> Our solutions are grounded in
           scientific principles and rigorous analysis. We employ cutting-edge
@@ -273,7 +273,7 @@ export default function TSCF() {
         </li>
       </ul>
       <h4 className="text-lg font-semibold mt-2 mb-1">c) Aerial Surveys</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our experienced, capable, and diverse team addresses the complex nature
         of our work. We have surveillance specialists, software developers,
         business analysts, cartographers, pipeline engineers, survey pilots, and
@@ -300,7 +300,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         d) Air Quality Services
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         As awareness of the health impacts of air pollution grows, legislation
         and regulations concerning air quality are rapidly expanding and
         evolving. Developers face the challenge of staying compliant while
@@ -310,7 +310,7 @@ export default function TSCF() {
         air quality, odor, and dust challenges.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Our Services</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Impact Assessments:</strong> Comprehensive assessments on air
           quality and odor impacts.
@@ -331,7 +331,7 @@ export default function TSCF() {
       <h5 className="text-md font-semibold mt-2 mb-1">
         Integrated Environmental Solutions
       </h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Health Impact Assessments</li>
         <li>Community Impact Assessments</li>
         <li>Dust Management Plans</li>
@@ -340,7 +340,7 @@ export default function TSCF() {
         <li>Development Plans</li>
       </ul>
       <h5 className="text-md font-semibold mt-2 mb-1">Why Choose TSCF?</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Adaptability:</strong> We stay ahead of regulatory changes,
           ensuring your projects remain compliant without compromising technical
@@ -363,7 +363,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         e) Arboriculture and Vegetation Management
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides a comprehensive solution for clients managing complex
         projects. Our expertise spans tree planting, surgery, and surveys to
         utility arboriculture and vegetation management for both large- and
@@ -377,22 +377,22 @@ export default function TSCF() {
         advice and intercompany expertise to help clients overcome project
         challenges. TSCF's extensive range of services includes:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Tree surgery, planting, and surveying</li>
         <li>Utility arboriculture</li>
         <li>Vegetation management</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our highly trained specialists can handle tasks such as:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Clearing scrub and hedgerow</li>
         <li>Sectional tree felling</li>
         <li>Crown lifting and pruning</li>
         <li>Mechanical tree felling</li>
         <li>Chipping</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our commitment to quality service ensures that we meet the unique needs
         of each project, helping clients achieve their goals efficiently and
         safely.
@@ -400,7 +400,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         f) Archaeology and Heritage Services
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our team of experienced archaeologists, involved in Environmental Impact
         Assessments (EIA), planning, and design, offers comprehensive
         archaeological and heritage services across various industries. We pride
@@ -418,7 +418,7 @@ export default function TSCF() {
         presenting the finished product.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Services Provided:</h5>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           <strong>Pre-Planning and Risk Assessment:</strong>
           <ul className="list-disc pl-5">
@@ -498,7 +498,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         g) TSCF's Comprehensive Carbon-Management and Sustainability Services
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         To support our clients in achieving these goals, our dedicated TSCF team
         offers a wide range of carbon management and sustainability services.
         These services are designed to ensure ongoing and long-term prosperity,
@@ -507,7 +507,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         h) Due Diligence and Environmental, Health and Safety (EHS) Policy
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF is committed to environmental protection and pollution prevention
         at its facility. TSCF aims to achieve the highest standards of
         environmental performance to the satisfaction of all its customers and
@@ -538,7 +538,7 @@ export default function TSCF() {
         Management System and will ensure that it shall be integrated at all
         levels within the organization.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The due diligence process of investigating and understanding the
         company’s undertaking is especially important when looking at deals
         within the environmental, health, and safety (EHS) sphere. TSCF’s due
@@ -549,12 +549,12 @@ export default function TSCF() {
         value creation.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Purpose</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         This part defines the scope of the TSCF Environmental, Health, and
         Safety Management System (EHSMS).
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Scope</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The TSCF EHSMS provides a mechanism for environmental, health, and
         safety management in its field of expertise and areas of coverage. The
         EHSMS is designed to cover Environmental, Health, and Safety aspects,
@@ -564,7 +564,7 @@ export default function TSCF() {
       <h5 className="text-md font-semibold mt-2 mb-1">
         Legal and Other Requirements
       </h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF has established an environmental procedure to identify, access, and
         determine how they apply to its environmental aspects and communicate
         legal and other requirements that apply to the sector. Additional
@@ -575,7 +575,7 @@ export default function TSCF() {
         and other requirements as applicable to the company.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Document Control</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF has established a procedure for controlling all documents related
         to the Environment, Health, and Safety system. This procedure describes
         where documents can be located and how and when they are reviewed. The
@@ -594,7 +594,7 @@ export default function TSCF() {
       <h5 className="text-md font-semibold mt-2 mb-1">
         Waste Management at Office
       </h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         All the waste generated in the office such as used cartridges, papers,
         and others will be sorted out based on reusable, recyclable, and
         disposable. After sorting out reusable will be utilized by the company,
@@ -604,7 +604,7 @@ export default function TSCF() {
         sides), reuse paper clips, and recycle plastic materials.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Site Camp Management</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Whenever a camp establishment is required to accomplish its fieldwork,
         TSCF before establishment shall get approval from local authorities. It
         is also the responsibility of the company to ensure that the Camp is
@@ -615,7 +615,7 @@ export default function TSCF() {
         and tidy condition.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Energy Management</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The energy use in the office is from renewable energy sources that as
         hydropower source that avoids the greenhouse impact of using fuel oil as
         an energy source. In addition, energy use is managed by using
@@ -623,7 +623,7 @@ export default function TSCF() {
         lights’ whenever it is not used.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Health Management</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         ESSD manages health and safety issues by complying with relevant health
         and safety regulations and standards. In particular, it minimizes health
         and safety risks to its staff involved in fieldwork or site visits
@@ -648,7 +648,7 @@ export default function TSCF() {
         Safety Rules for Driver and Passenger
       </h5>
       <h6 className="text-md font-semibold mt-2 mb-1">Drivers’ Safety Rule</h6>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Move only when everyone’s seat belt is fastened.</li>
         <li>
           Rest for 15 minutes after 3 hours’ drive on roads or 2 hours’ drive
@@ -691,7 +691,7 @@ export default function TSCF() {
       <h6 className="text-md font-semibold mt-2 mb-1">
         Passengers’ Code of Conduct
       </h6>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           Always wear seat belts and be certain they are accessible and in good
           condition.
@@ -717,7 +717,7 @@ export default function TSCF() {
         </li>
       </ul>
       <h5 className="text-md font-semibold mt-2 mb-1">First Aid</h5>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Each car will be equipped with a first aid kit. In addition, each field
         survey team shall have at least one first aid kit and at least one
         person within the survey team shall be trained to provide basic first
@@ -730,7 +730,7 @@ export default function TSCF() {
         <Image src={Image1} alt="TS Farm Logo" className="w-[50rem] p-9" />
       </div>
       <h4 className="text-lg font-semibold mt-2 mb-1">a) Aerial Surveys</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company provides aerial survey and mapping services with a team of
         experts including surveillance specialists, software developers,
         business analysts, cartographers, pipeline engineers, and survey pilots.
@@ -745,11 +745,11 @@ export default function TSCF() {
         developments.
       </p>
       <h4 className="text-lg font-semibold mt-2 mb-1">b) Drilling Services</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF and Associates has a wide range of drilling and boring rigs,
         including:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           Standard cable percussion, track, and truck-mounted rotary drilling
           rigs.
@@ -764,7 +764,7 @@ export default function TSCF() {
           geotechnical data.
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our drilling rigs can conduct ground investigations in the same location
         as proposed remedial works, such as soil nailing or electrokinetic slope
         stabilization systems, to reduce the risk of encountering unforeseen
@@ -776,7 +776,7 @@ export default function TSCF() {
         analysis as part of their suite of services.
       </p>
       <h4 className="text-lg font-semibold mt-2 mb-1">d) Earthworks Design</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Groundwork and earthworks design are crucial steps in preparing a site
         for construction. This involves addressing natural and man-made
         constraints, such as previous foundation structures, unsuitable
@@ -790,7 +790,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         f) Geotechnical Consultancy
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Before embarking on any infrastructure project, it's crucial to assess
         the ground conditions to ensure suitable foundation design, excavation,
         and stabilization works. Unforeseen ground conditions can significantly
@@ -804,7 +804,7 @@ export default function TSCF() {
         solutions to ground-related challenges, providing a single-source
         solution with additional complementary services.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF's reliability and responsiveness help clients achieve planning
         permissions and regulatory approval quickly, minimizing delays. They
         provide expert witness advice on geotechnical problems and offer a range
@@ -816,7 +816,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         g) Geotechnical Laboratory Testing
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF’s Geotechnical Testing Services provides a range of laboratory and
         site testing services to help clients understand the conditions beneath
         their site. Our in-house laboratories and site teams are equipped and
@@ -829,7 +829,7 @@ export default function TSCF() {
         mixtures. These tests produce high-quality data that are incorporated
         into geotechnical reports.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF's laboratory has a long history of providing testing services to a
         diverse range of clients, including government agencies, consultants,
         and private entities. Our tests produce high-quality data that are
@@ -843,7 +843,7 @@ export default function TSCF() {
         testing needs.
       </p>
       <h4 className="text-lg font-semibold mt-2 mb-1">h) Hydrogeology</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Hydrogeology is the study of groundwater movement and distribution in
         the Earth's crust, which is crucial for understanding the water cycle
         and providing fresh water for human consumption and industry.
@@ -862,7 +862,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         a) Topographical Surveys
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         A topographical survey is an accurate depiction of a property, an area
         of land or a defined boundary, which is scaled and detailed according to
         the spatial considerations. You need to visualize the land you want to
@@ -875,7 +875,7 @@ export default function TSCF() {
         integrated CAD plan. We only use highly trained topographic land
         surveyors, which ensures you get the exact best fit for your site.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF, a geophysical consultancy practice, offers a range of services
         including topographic surveys, geophysical consultancy, and land
         surveying in various sectors. Our services provide accurate and detailed
@@ -886,7 +886,7 @@ export default function TSCF() {
         delivering high-quality results efficiently and adapts to clients' needs
         with clear and concise communication throughout the project.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         We are not just a geophysical consultancy: in addition to flexibility
         and responsiveness, our traditional surveying techniques can be
         supported by other disciplines as aerial surveying or augmented using
@@ -900,7 +900,7 @@ export default function TSCF() {
         <Image src={Image2} alt="TS Farm Logo" className="w-[50rem] p-9" />
       </div>
       <h4 className="text-lg font-semibold mt-2 mb-1">a) Air Quality</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF's Environment, Health, and Safety team offers a range of air
         quality services to help clients manage air pollution and comply with
         regulations. Our services include air quality impact assessments,
@@ -922,7 +922,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         b) Climate Change Risk and Reporting
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Climate change poses significant risks to the planet, people, and
         businesses, emphasizing the need for immediate action to adapt and limit
         its impacts. The risks are not only physical but also economic,
@@ -938,14 +938,14 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         c) Ecology and Biodiversity
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF, an environmental consultancy, provides ecological and biodiversity
         services to help clients minimize the impact of human activities on the
         environment. The company emphasizes the importance of integrating
         biodiversity management into project planning early on to avoid delays
         and additional costs. Our services include:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Biodiversity risk management,</li>
         <li>Impact assessments and monitoring plans,</li>
         <li>Critical habitat assessment,</li>
@@ -955,7 +955,7 @@ export default function TSCF() {
         <li>Scoping and terms of reference, and</li>
         <li>Biodiversity baseline assessments.</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF’s team has extensive experience in these services, ensuring clients
         are aware of potential ecological issues and can plan accordingly. The
         company also emphasizes the importance of complying with legislation,
@@ -965,7 +965,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         e) Flood Risk Assessment
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF is a company that specializes in hydrology, flood risk, drainage,
         and water quality management. We provide a range of services to clients
         in various sectors, including residential, commercial, and energy. The
@@ -981,7 +981,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         f) Food and Farm Productivity
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF is a leading company in the food and drink sector, specializing in
         sustainable agricultural production and land management. We offer
         expertise in crop science, soil health, water use, and pest management
@@ -990,7 +990,7 @@ export default function TSCF() {
         services can be combined with other services, such as farm business
         advice. TSCF's capabilities include:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Crop science (arable, horticulture, and grass/forage crops),</li>
         <li>Crop nutrition and physiology,</li>
         <li>Water use and management,</li>
@@ -1000,7 +1000,7 @@ export default function TSCF() {
           protection, manufacture, remediation, and storage).
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Overall, TSCF provides holistic solutions for clients while prioritizing
         sustainable practices that ensure food security and environmental
         protection.
@@ -1012,7 +1012,7 @@ export default function TSCF() {
         <Image src={Image3} alt="TS Farm Logo" className="w-[50rem] p-9" />
       </div>
       <h4 className="text-lg font-semibold mt-2 mb-1">a) Building Surveying</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our building surveying offers a range of services to help property
         owners understand their assets, identify risks, and develop maintenance
         or improvement plans. We prioritize their services based on clients'
@@ -1025,7 +1025,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         b) Cost Consultancy and Quantity Surveying
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides consultancy and quantity surveying services to help
         clients in the construction industry manage their finances effectively
         and achieve cost certainty and value for money. Our services include
@@ -1039,7 +1039,7 @@ export default function TSCF() {
         highlights its ability to provide robust reporting regimes and final
         account projections. The company's services include:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Cost consultancy and quantity surveying,</li>
         <li>Procurement advice,</li>
         <li>Value engineering,</li>
@@ -1049,23 +1049,23 @@ export default function TSCF() {
         <li>Monthly valuations and cash flow reporting, and</li>
         <li>Final account projections and robust reporting regimes.</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF's team has a wide range of skills and expertise, including:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Quantity surveying</li>
         <li>Structural engineering</li>
         <li>Building surveying</li>
         <li>Remediation</li>
         <li>Transport planning and management</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company offers its services as a standalone solution or as part of
         an integrated single-source solution, providing clients with a
         comprehensive package of services to support their development projects.
         Some key points highlighted in the text include:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           The importance of careful planning and monitoring of finances in the
           construction industry.
@@ -1084,7 +1084,7 @@ export default function TSCF() {
           account projections.
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The tone of the text is professional and informative, suggesting that it
         is intended for an audience with a background in construction,
         architecture, or a related field. The language used is technical and
@@ -1093,7 +1093,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         c) Facilities Management Consultancy
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides integrated facilities management solutions to clients
         across various sectors. Their services cover a range of areas including
         health and safety, risk management, sustainability, and more. The
@@ -1108,7 +1108,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         d) Information Management
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         In the modern world, it has become the norm that businesses operate with
         their information in the digital domain. Whether in a small, family-run
         company, a privately owned conglomerate, or a worker-owned and run
@@ -1123,7 +1123,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         e) Interior Design and Refurbishment
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF (TSCF and its associates) in the field of interior design and
         refurbishment provides comprehensive services for a wide range of
         projects, from simple renovations to complex, large-scale
@@ -1142,7 +1142,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         f) Structural Inspection and Investigation
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF and associates is a company with many years of experience in
         conducting structural investigations and providing expertise in
         structural integrity, inspection, and repair. We conducted multiple
@@ -1150,7 +1150,7 @@ export default function TSCF() {
         landmarks, bridges, buildings, and roads. The company's expertise
         includes:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           Conducting investigations to identify faults and potential hazards.
         </li>
@@ -1164,7 +1164,7 @@ export default function TSCF() {
         </li>
         <li>Providing bespoke solutions to clients across all sectors.</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company's capabilities include general and principal highway
         inspections, railway examinations, building surveys, and bridge
         inspections. We use various techniques such as diamond coring, drilling,
@@ -1175,7 +1175,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         g) Contracts Administration
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF is a company that specializes in land remediation and development
         projects, providing bespoke procurement and contract strategies to
         manage risks and allocate opportunities. Our team of experts includes
@@ -1195,7 +1195,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         a) Farm Business Advice
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides agricultural and environmental consultancy services to
         farmers. The company helps farmers manage their businesses and adapt to
         industry changes with expert advice tailored to their needs. Services
@@ -1207,7 +1207,7 @@ export default function TSCF() {
         profitable businesses that are fit for the future.
       </p>
       <h4 className="text-lg font-semibold mt-2 mb-1">b) Land Management</h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The TSCF group provides a range of services to help clients manage large
         landholdings sustainably and responsibly. These services include
         integrated land management planning, habitat creation and management,
@@ -1222,7 +1222,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         c) Our Sustainability Services
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         We offer a range of measurement, analysis, strategy, and communication
         services. Specifically, through our associates, we offer solutions for
         sustainable agricultural supply chains. This means we make full use of
@@ -1232,7 +1232,7 @@ export default function TSCF() {
         meet business needs, and communicate accurately in non-technical
         language to all stakeholders. Our services include:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
           Measurement and monitoring: Collect qualitative and quantitative data
           to understand the agricultural value chain, identifying areas for
@@ -1256,7 +1256,7 @@ export default function TSCF() {
           solutions backed by evidence-based research.
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company's goal is to help clients solve their most significant
         challenges, avoid mishaps in the value chain, and maintain a positive
         reputation. By using its multidisciplinary team, TSCF aims to bring
@@ -1268,7 +1268,7 @@ export default function TSCF() {
       <div className="flex justify-center">
         <Image src={Image5} alt="TS Farm Logo" className="w-[50rem] p-9" />
       </div>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF offers laboratory analysis services for various sample types,
         including molecular diagnostics, contamination testing, geotechnical
         testing, and materials testing. Our labs are accredited and licensed to
@@ -1285,11 +1285,11 @@ export default function TSCF() {
       <div className="flex justify-center">
         <Image src={Image6} alt="TS Farm Logo" className="w-[50rem] p-9" />
       </div>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides expertise in digital media, sustainability, and data
         analysis to meet growing demand. We offer:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Data and design software for advanced analytics and insights.</li>
         <li>
           Communications and sustainability reporting services for clear
@@ -1297,11 +1297,11 @@ export default function TSCF() {
         </li>
         <li>Bespoke software development, resourcing, and consultancy.</li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         These services can be used alone or combined to create a customized
         package. TSCF’s expertise enables clients to:
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Make informed decisions using data.</li>
         <li>Develop effective communication strategies.</li>
         <li>Demonstrate sustainability commitment.</li>
@@ -1310,7 +1310,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         b) Information Management
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF and its associates is a company that specializes in providing
         digital solutions for managing and delivering information to companies
         across various industries. The company's services include collating and
@@ -1319,7 +1319,7 @@ export default function TSCF() {
         TSCF aims to help companies transition from manual to digital systems,
         improve site management efficiency, and reduce costs.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         The company has extensive experience working with major clients in the
         construction, residential, and utility sectors, and has received
         certifications for its quality management system and building
@@ -1334,7 +1334,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         c) Software Design and Development
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF Business Solutions is a software specialist technology company that
         provides end-to-end software development, offshore software resourcing,
         mobile application development, and IT consultancy services. Our team of
@@ -1346,7 +1346,7 @@ export default function TSCF() {
         development, and regular meetings and workshops help alleviate these
         concerns.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Our integrated technology and consulting services enable us to resolve
         complex business problems. Whether you're looking to enhance your online
         presence or digital impact, we have the expertise to deliver tailored
@@ -1356,7 +1356,7 @@ export default function TSCF() {
       <h4 className="text-lg font-semibold mt-2 mb-1">
         d) Sustainability Reporting
       </h4>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         TSCF provides sustainability communication and reporting services to
         organizations. We help businesses effectively communicate their
         sustainability efforts to stakeholders and demonstrate their commitment
@@ -1370,7 +1370,7 @@ export default function TSCF() {
       <h3 className="text-xl font-semibold mt-4 mb-2">
         1.1.8 Organogram of TSCF
       </h3>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         Businesses require structure to grow and be profitable, otherwise you'd
         have people pulling in all sorts of different directions. Planning the
         structure ensures there are enough human resources with the right skills
@@ -1383,7 +1383,7 @@ export default function TSCF() {
         Financial Officer, because both of these members of the top management
         team depend on information and reports provided by financial planning.
       </p>
-      <p className="mb-4">
+      <p className="mb-4 md:text-lg text-sm">
         A well-designed organizational structure is crucial for a business to
         succeed. It helps to ensure that the company has the right people with
         the right skills, clearly defines job responsibilities, establishes
