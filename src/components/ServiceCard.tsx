@@ -27,7 +27,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <Image
           src={vector}
           alt="Icon"
-          className=" p-9 w-[150rem] lg:w-[96rem] object-cover  "
+          className=" p-9 w-[150rem] lg:h-[20rem] object-contain  "
         />
       </div>
       <div className="md:px-24 px-6 sm:px-9">
