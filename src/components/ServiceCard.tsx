@@ -7,6 +7,7 @@ interface ServiceCardProps {
   description: string;
   link: string;
   vector: string;
+  imageWidth: number;
 }
 const ServiceCard: React.FC<ServiceCardProps> = ({
   leftRadius,
@@ -14,6 +15,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
   link,
   vector,
+  imageWidth,
 }) => {
   return (
     <div
@@ -23,7 +25,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       
       ${leftRadius ? "sm:flex-row" : "sm:flex-row-reverse"}`}
     >
-      <div className="lg:flex justify-center items-center hidden lg:w-[65rem] ">
+      <div
+        className={`lg:flex justify-center items-center hidden lg:w-[${imageWidth}rem] `}
+      >
         <Image
           src={vector}
           alt="Icon"
