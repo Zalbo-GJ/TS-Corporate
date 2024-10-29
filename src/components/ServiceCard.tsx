@@ -23,11 +23,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       
       ${leftRadius ? "sm:flex-row" : "sm:flex-row-reverse"}`}
     >
-      <div className="lg:flex justify-center items-center hidden  ">
+      <div className="lg:flex justify-center items-center hidden lg:w-[74rem] ">
         <Image
           src={vector}
           alt="Icon"
-          className=" p-9 w-[150rem] object-cover "
+          className=" p-9 w-[150rem] object-cover  "
         />
       </div>
       <div className="md:px-24 px-6 sm:px-9">
