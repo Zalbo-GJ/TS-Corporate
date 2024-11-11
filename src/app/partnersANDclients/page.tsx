@@ -310,22 +310,22 @@ const PartnersAndClients = () => {
     "And many more ……………………………….",
   ];
   return (
-    <div className="p-8 bg-white text-black">
+    <div className="min-h-screen p-5 md:p-16  bg-white text-black">
       <h1 className="text-2xl font-bold mb-4">Our Clients and Partners</h1>{" "}
-      <div className="flex flex-wrap  gap-4 mb-8">
+      <div className="flex flex-wrap   gap-4 mb-8">
         {Array.from({ length: 33 }, (_, index) => (
           <img
             key={index}
             src={`/images/p${index + 1}.png`}
             alt={`Image ${index + 1}`}
-            className="h-24"
+            className="h-12 md:h-24 "
           />
         ))}
       </div>
       <h1 className="text-2xl font-bold mb-4">
         Clients and Partners in Different Places
       </h1>
-      <ol className="list-decimal pl-5 mb-8">
+      <ol className="list-decimal pl-5 mb-8 text-sm">
         <li>FDRE Ministry of Trade and Industry</li>
         <li>FDRE Ministry of Innovation</li>
         <li>FDRE Ministry of Environment, Forest and Climate Change</li>
@@ -438,7 +438,7 @@ const PartnersAndClients = () => {
         <tbody>
           {othersAndManyMore.map((company, index) => (
             <tr key={index} className="border-t">
-              <td className="px-9 py-1 text-sm">{company}</td>
+              <td className="px-9 py-1 text-xs md:text-sm">{company}</td>
             </tr>
           ))}
         </tbody>
@@ -450,7 +450,7 @@ const PartnersAndClients = () => {
 const Section = ({ title, items }: { title: string; items: string[] }) => (
   <div className="mb-8">
     <h2 className="text-xl font-semibold mb-2">{title}</h2>
-    <ul className="list-disc pl-5">
+    <ul className="list-disc pl-5 text-sm">
       {items.map((item, index) => (
         <li key={index}>{item}</li>
       ))}
