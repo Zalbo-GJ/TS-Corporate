@@ -2,7 +2,9 @@ export default function NavBar() {
   return (
     <div className="bg-white">
       <nav className="container mx-auto p-4 flex  md:flex-row justify-between items-center">
-        <div className="text-2xl text-black mb-4 md:mb-0">TS</div>
+        <div className="text-2xl text-black mb-4 md:mb-0">
+          <img src="images/tsLogo.png" className="w-20 md:w-24 lg:w-28" />
+        </div>
         <ul className="flex items-center md:flex-row space-x-3 md:space-y-0 md:space-x-8  text-xs md:text-lg ">
           <li>
             <a href="/#home" className="text-black hover:text-gray-400">
