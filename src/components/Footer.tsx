@@ -17,7 +17,13 @@ export default function Footer() {
           <p className="flex">
             <FaEnvelope />
             <span className="ml-2">
-              teshome.soromessa@tscoporate.biz, teshome.soromessa@gmail.com
+              <a href="mailto:teshome.soromessa@tscoporate.biz">
+                teshome.soromessa@tscoporate.biz
+              </a>
+              ,
+              <a href="mailto:teshome.soromessa@gmail.com">
+                teshome.soromessa@gmail.com
+              </a>
             </span>
           </p>
         </div>
