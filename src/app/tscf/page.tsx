@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TSCFLogo from "../../../public/images/tsieLogo.png";
+import TSCFLogo from "../../../public/images/tscfLogo.png";
 import Image0 from "../../../public/images/enviroment.png";
 import Image1 from "../../../public/images/ground.png";
 import Image2 from "../../../public/images/climate.png";

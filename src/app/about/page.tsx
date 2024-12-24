@@ -7,11 +7,11 @@ export default function About() {
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-4 md:mb-8">
         TSCORPORATE
       </h1>
-      <div className="flex flex-col items-center mb-4 md:mb-8">
+      <div className="flex flex-col items-center mb-4 md:mb-8 ">
         <Image
           src={Prof}
           alt="Professor"
-          className="mb-2 w-48 md:w-96 md:mb-4"
+          className="mb-2 w-48 md:w-48 md:mb-4"
         />
         <p className="text-base md:text-lg font-semibold">
           Prof. Teshome Soromessa (Corporate President)
