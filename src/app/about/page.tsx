@@ -17,7 +17,6 @@ export default function About() {
           Prof. Teshome Soromessa (Corporate President)
         </p>
       </div>
-
       <p className="mb-4 md:mb-6 text-justify">
         With immense pride and excitement, I introduce you to TSCORPORATE, a
         company on a remarkable trajectory of growth and development with its
@@ -125,17 +124,22 @@ export default function About() {
           and farming activities.
         </li>
         <li>
+          TS Import-Export (Teshome Soromessa Import-Export or TSIE):
+          Responsible for importing and exporting goods to and from different
+          countries.
+        </li>
+      </ul>
+      <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-8 mb-2 md:mb-4">
+        Coming Soon
+      </h2>
+      <ul className="list-disc list-inside mb-4 md:mb-6">
+        <li>
           TS Manufacturing Factory (Teshome Soromessa Manufacturing Factory or
           TSMF): Engages in producing and manufacturing various products.
         </li>
         <li>
           TS General Contractor (Teshome Soromessa General Contractor or TSGC):
           Offers construction and contracting services for various projects.
-        </li>
-        <li>
-          TS Import-Export (Teshome Soromessa Import-Export or TSIE):
-          Responsible for importing and exporting goods to and from different
-          countries.
         </li>
         <li>
           TS Tour and Travel (Teshome Soromessa Tour and Travel or TSTT):
