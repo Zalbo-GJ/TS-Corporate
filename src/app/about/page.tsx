@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Prof from "../../../public/images/prof.png";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About TSCorporate",
+  description:
+    "Learn about TSCorporate, a multifaceted corporation founded by Prof. Teshome Soromessa offering services across consulting, construction, manufacturing, agriculture, import-export, tourism, and travel.",
+  keywords: [
+    "TSCorporate history",
+    "Prof. Teshome Soromessa",
+    "Ethiopian corporation",
+    "company vision",
+    "company mission",
+  ],
+};
 
 export default function About() {
   return (

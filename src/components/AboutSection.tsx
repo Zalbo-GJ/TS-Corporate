@@ -2,12 +2,19 @@ import Link from "next/link";
 
 export default function AboutSection() {
   return (
-    <div className="bg-white py-10 flex flex-col items-center" id="about">
-      <div className="bg-blue-100 rounded-lg lg:rounded-full flex flex-col items-center px-6 py-8 md:flex-row   md:h-96 sm:px-9">
-        <div className="bg-white rounded-full flex justify-center items-center text-blue-600 md:text-xl font-bold px-4 py-4 text-center md:rounded-l-full md:rounded-r-none md:h-full md:p-12 sm:text-4xl sm:px-6">
+    <section
+      className="bg-white py-10 flex flex-col items-center"
+      id="about"
+      aria-labelledby="about-heading"
+    >
+      <div className="bg-blue-100 rounded-lg lg:rounded-full flex flex-col items-center px-6 py-8 md:flex-row md:h-96 sm:px-9">
+        <h2
+          id="about-heading"
+          className="bg-white rounded-full flex justify-center items-center text-blue-600 md:text-xl font-bold px-4 py-4 text-center md:rounded-l-full md:rounded-r-none md:h-full md:p-12 sm:text-4xl sm:px-6"
+        >
           About Company
-        </div>
-        <div className="flex flex-col space-y-6 mt-6 p-4 sm:mt-5  sm:space-y-10">
+        </h2>
+        <div className="flex flex-col space-y-6 mt-6 p-4 sm:mt-5 sm:space-y-10">
           <p className="text-black text-xs text-center sm:text-left md:text-sm lg:text-base">
             Established in 2017, TSCORPORATE has evolved into a multifaceted
             corporation offering services across consulting, construction,
@@ -29,6 +36,6 @@ export default function AboutSection() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

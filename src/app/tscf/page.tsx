@@ -8,6 +8,20 @@ import Image4 from "../../../public/images/rural.png";
 import Image5 from "../../../public/images/laboratory.png";
 import Image6 from "../../../public/images/media.png";
 import Image7 from "../../../public/images/organogram3.png";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "TS Consulting Firm",
+  description:
+    "TS Consulting Firm (TSCF) offers a wide spectrum of consulting services including Environmental Impact Assessments, Management Plans, Environmental Audits, and Green House Gas Inventory.",
+  keywords: [
+    "TS Consulting Firm",
+    "TSCF",
+    "environmental consulting",
+    "Environmental Impact Assessment",
+    "Ethiopia consulting",
+  ],
+};
 
 export default function TSCF() {
   return (
@@ -25,7 +39,7 @@ export default function TSCF() {
         Business PLC and currently manages TS Corporate. TS Consulting Firm was
         established in Ethiopia in 2017 to offer a wide spectrum of consulting
         services. The company is fully certified and registered by the Federal
-        Democratic Republic of Ethiopia’s Environmental Protection Authority as
+        Democratic Republic of Ethiopia's Environmental Protection Authority as
         a firm of Environmental Experts that is entitled to undertake
         Environmental Impact Assessments (EIA), Environmental Management Plans,
         Environmental Audits (EA), and Green House Gas Inventory of development
@@ -148,7 +162,7 @@ export default function TSCF() {
           may be required;
         </li>
         <li>
-          e) Monitor an organization’s levels of compliance with environmental
+          e) Monitor an organization's levels of compliance with environmental
           legislation; and
         </li>
         <li>
@@ -173,7 +187,7 @@ export default function TSCF() {
         calculation and reporting protocols are followed; errors and
         uncertainties in the greenhouse gas data are minimized; and the effort
         required to produce the data each quarter is reduced. We take great care
-        to engage the client’s asset staff throughout the process. As a result,
+        to engage the client's asset staff throughout the process. As a result,
         their knowledge and understanding of and confidence in these bespoke
         tools have increased. As a result of our services, our clients will have
         first-class greenhouse gas reporting systems and achieve a clean audit
@@ -304,7 +318,7 @@ export default function TSCF() {
         As awareness of the health impacts of air pollution grows, legislation
         and regulations concerning air quality are rapidly expanding and
         evolving. Developers face the challenge of staying compliant while
-        managing safe emission levels. TSCF’s specialist Environment Health and
+        managing safe emission levels. TSCF's specialist Environment Health and
         Safety team offers competitive air quality services, including
         consultancy, design, and engineering solutions, tailored to address your
         air quality, odor, and dust challenges.
@@ -355,7 +369,7 @@ export default function TSCF() {
           <strong>Client-Centric Service:</strong> We maintain excellent
           communication throughout your project, helping you navigate budget
           constraints, deadlines, and design changes to achieve cost-effective,
-          regulation-compliant solutions. With TSCF’s Environment Health and
+          regulation-compliant solutions. With TSCF's Environment Health and
           Safety team, you can trust that your air quality challenges will be
           met with expertise, innovation, and unwavering commitment to quality.
         </li>
@@ -540,8 +554,8 @@ export default function TSCF() {
       </p>
       <p className="mb-4 md:text-lg text-sm">
         The due diligence process of investigating and understanding the
-        company’s undertaking is especially important when looking at deals
-        within the environmental, health, and safety (EHS) sphere. TSCF’s due
+        company's undertaking is especially important when looking at deals
+        within the environmental, health, and safety (EHS) sphere. TSCF's due
         diligence services support national and international customers in
         identifying and monetizing risks; supporting value for vendors or price
         point negotiations or reductions for acquirers on transactions; and
@@ -620,7 +634,7 @@ export default function TSCF() {
         hydropower source that avoids the greenhouse impact of using fuel oil as
         an energy source. In addition, energy use is managed by using
         energy-minimizing devices and electric bulbs and regularly switching off
-        lights’ whenever it is not used.
+        lights' whenever it is not used.
       </p>
       <h5 className="text-md font-semibold mt-2 mb-1">Health Management</h5>
       <p className="mb-4 md:text-lg text-sm">
@@ -647,11 +661,11 @@ export default function TSCF() {
       <h5 className="text-md font-semibold mt-2 mb-1">
         Safety Rules for Driver and Passenger
       </h5>
-      <h6 className="text-md font-semibold mt-2 mb-1">Drivers’ Safety Rule</h6>
+      <h6 className="text-md font-semibold mt-2 mb-1">Drivers' Safety Rule</h6>
       <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
-        <li>Move only when everyone’s seat belt is fastened.</li>
+        <li>Move only when everyone's seat belt is fastened.</li>
         <li>
-          Rest for 15 minutes after 3 hours’ drive on roads or 2 hours’ drive
+          Rest for 15 minutes after 3 hours' drive on roads or 2 hours' drive
           off-road.
         </li>
         <li>Not to exceed 16 hours within 24 hours.</li>
@@ -661,7 +675,7 @@ export default function TSCF() {
         <li>
           Before planning any trip, the driver must be rested, fit, alert, and
           have the following documents in their vehicle: their driving license,
-          annual vehicle’s inspection certificate, and insurance certificate.
+          annual vehicle's inspection certificate, and insurance certificate.
         </li>
         <li>
           Headlights on at dawn and dusk: at least 30 minutes before sunset
@@ -689,7 +703,7 @@ export default function TSCF() {
         </li>
       </ul>
       <h6 className="text-md font-semibold mt-2 mb-1">
-        Passengers’ Code of Conduct
+        Passengers' Code of Conduct
       </h6>
       <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>
@@ -780,7 +794,7 @@ export default function TSCF() {
         Groundwork and earthworks design are crucial steps in preparing a site
         for construction. This involves addressing natural and man-made
         constraints, such as previous foundation structures, unsuitable
-        materials, and repurposing site materials. TSCF’s Geosciences team and
+        materials, and repurposing site materials. TSCF's Geosciences team and
         expert earthworks design specialists offer cost-effective and
         sustainable solutions to complex ground challenges. They work with other
         specialists to serve sites with difficult conditions, integrating
@@ -817,7 +831,7 @@ export default function TSCF() {
         g) Geotechnical Laboratory Testing
       </h4>
       <p className="mb-4 md:text-lg text-sm">
-        TSCF’s Geotechnical Testing Services provides a range of laboratory and
+        TSCF's Geotechnical Testing Services provides a range of laboratory and
         site testing services to help clients understand the conditions beneath
         their site. Our in-house laboratories and site teams are equipped and
         certified to conduct various tests, including soil, rock, and aggregate
@@ -848,14 +862,14 @@ export default function TSCF() {
         the Earth's crust, which is crucial for understanding the water cycle
         and providing fresh water for human consumption and industry.
         Hydrogeologists examine how water enters the ground, flows through
-        aquifers, and interacts with surrounding soil and rock. TSCF’s
+        aquifers, and interacts with surrounding soil and rock. TSCF's
         hydrogeologists offer a range of services, including resource
         management, environmental protection, and regulatory compliance, with
         decades of experience working on projects globally across various
         sectors. Hydrogeology plays a vital role in addressing major global
         challenges such as maintaining a sustainable water supply, producing
         food and energy, protecting the environment, and mitigating climate
-        disasters. TSCF’s hydrogeologists collaborate with other teams to
+        disasters. TSCF's hydrogeologists collaborate with other teams to
         provide comprehensive services to clients including farmers, businesses,
         research institutes, policymakers, and regulators.
       </p>
@@ -893,7 +907,7 @@ export default function TSCF() {
         laser and/or lidar scanning. We aim to get our experts on-site, and our
         communication services team maintains a clear and continuous channel of
         updates in clear and concise language, reassuring you from your
-        project’s inception to conclusion.
+        project's inception to conclusion.
       </p>
       <h3 className="text-xl font-semibold mt-4 mb-2">1.1.3 Climate Change</h3>
       <div className="flex justify-center">
@@ -956,7 +970,7 @@ export default function TSCF() {
         <li>Biodiversity baseline assessments.</li>
       </ul>
       <p className="mb-4 md:text-lg text-sm">
-        TSCF’s team has extensive experience in these services, ensuring clients
+        TSCF's team has extensive experience in these services, ensuring clients
         are aware of potential ecological issues and can plan accordingly. The
         company also emphasizes the importance of complying with legislation,
         lender requirements, and international best practices in ecology and
@@ -1115,7 +1129,7 @@ export default function TSCF() {
         cooperative, entire systems, from human resources and maintenance to
         finance, are going digital. Therefore, the need for purpose-specific
         software or a digital specialist company to help navigate and manage
-        digital information networks is immense. Today’s customers demand to be
+        digital information networks is immense. Today's customers demand to be
         a swipe or a click away from content. To retain this connection to
         consumers, businesses must embrace and master the technology that
         delivers the required solutions.
@@ -1185,7 +1199,7 @@ export default function TSCF() {
         document preparation, contract management, risk management, and ground
         and site investigation. By providing these services, TSCF helps clients
         achieve their goals on time, within budget, and to the highest quality.
-      </p>{" "}
+      </p>
       <h3 className="text-xl font-semibold mt-4 mb-2">
         1.1.5 Rural and Agriculture
       </h3>
@@ -1299,7 +1313,7 @@ export default function TSCF() {
       </ul>
       <p className="mb-4 md:text-lg text-sm">
         These services can be used alone or combined to create a customized
-        package. TSCF’s expertise enables clients to:
+        package. TSCF's expertise enables clients to:
       </p>
       <ul className="list-disc pl-5 mb-4 md:text-lg text-sm">
         <li>Make informed decisions using data.</li>
@@ -1323,7 +1337,7 @@ export default function TSCF() {
         The company has extensive experience working with major clients in the
         construction, residential, and utility sectors, and has received
         certifications for its quality management system and building
-        information modeling delivery. TSCF’s services are designed to meet
+        information modeling delivery. TSCF's services are designed to meet
         regulatory compliance requirements, improve project sustainability, and
         provide a single source of truth for clients. The company's mission is
         to deliver accurate, timely, and accessible documentation to project
@@ -1377,7 +1391,7 @@ export default function TSCF() {
         to accomplish the company's goals, and ensures that responsibilities are
         clearly defined. Each person has a job description that outlines duties,
         and each job occupies its position on the company organization chart.
-        Since the flow of information is essential to an organization’s success,
+        Since the flow of information is essential to an organization's success,
         the organizational structure should be designed with clear lines of
         communication in mind. For example, the accountant reports to the Chief
         Financial Officer, because both of these members of the top management
