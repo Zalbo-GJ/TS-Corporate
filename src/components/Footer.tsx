@@ -20,10 +20,7 @@ export default function Footer() {
               <a href="mailto:teshome.soromessa@tscoporate.biz">
                 teshome.soromessa@tscoporate.biz
               </a>
-              ,
-              <a href="mailto:teshome.soromessa@gmail.com">
-                teshome.soromessa@gmail.com
-              </a>
+              , <a href="mailto:info@tscorporate.biz"> info@tscorporate.biz</a>
             </span>
           </p>
         </div>
